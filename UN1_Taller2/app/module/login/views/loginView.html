@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX_DAI_Tallernro1</title>
+
+    <link rel="stylesheet" href="../../../../libs/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+<form class="bootstrap-form-with-validation" onsubmit="return iCanSubmitNow();" >
+    <h2 class="text-center">DAI-5501 - Taller nro 1</h2>
+    <div class="form-group">
+        <label class="control-label"
+               for="text-input">Usuario </label>
+        <input class="form-control" type="text"
+               name="text-input" id="text-input" required>
+    </div>
+    <div class="form-group">
+        <label class="control-label" for="password-input">Password</label>
+        <input class="form-control" type="password" name="password-input" id="password-input"
+               pattern=".{3,10}"
+               required>
+    </div>
+    <div class="form-group">
+        <label class="control-label" for="email-input">Email</label>
+        <input class="form-control" type="email" name="email-input" id="email-input" required>
+    </div>
+    <div class="form-group"></div>
+    <div class="form-group">
+        <div class="input-group">
+            <div class="input-group-addon"><span> <span class="glyphicon glyphicon-search"></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group"></div>
+    <div class="form-group"></div>
+    <div class="form-group">
+        <button class="btn btn-primary" type="submit">Button</button>
+    </div>
+</form>
+
+<script src="../../../../libs/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../../../../libs/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../services/loginViewFunctions.js"></script>
+
+
+</body>
+
+</html>
